@@ -22,7 +22,6 @@ I enjoy learning new technologies, creating real-world projects, and sharing my 
 
 ## 🛠 Tech Stack  
 
-## 🛠 Tech Stack  
 
 ### 👨‍💻 Programming Languages
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
