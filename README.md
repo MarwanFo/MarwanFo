@@ -92,7 +92,7 @@ I enjoy learning new technologies, creating real-world projects, and sharing my 
 
 ## 🤝 Let's Connect  
 
-- 📧 Email: *(add your email here)*  
-- 💼 LinkedIn: *(add your LinkedIn here)*  
+- 📧 Email:itsmemarwanefo@gmail.com
+- 💼 LinkedIn:https://www.linkedin.com/in/marwane-faridi-bb6076360  
 
 ⭐ *Thanks for visiting my profile!*
