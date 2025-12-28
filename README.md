@@ -84,7 +84,6 @@ I enjoy learning new technologies, creating real-world projects, and sharing my 
 
 ## 📌 Featured Projects  
 
-> *(Pin your best repositories on your profile)*
 
 - 🔹 **QR Code Generator** – Generate QR codes using JavaScript  
 - 🔹 **Automation Mail** – Email automation with Python  
