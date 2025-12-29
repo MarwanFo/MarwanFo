@@ -25,6 +25,7 @@ I enjoy learning new technologies, creating real-world projects, and sharing my 
 
 ### 👨‍💻 Programming Languages
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
+![JavaScript](https://img.shields.io/badge/laravel-red?style=for-the-badge&logo=laravel)
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
 ![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)
