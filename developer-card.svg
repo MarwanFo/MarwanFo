@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="850" height="380">
+  <defs>
+    <!-- Fonts -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;family=Inter:wght@400;600;800&amp;display=swap');
+      
+      .main-container {
+        font-family: 'Fira Code', 'Inter', monospace;
+        fill: #c9d1d9;
+      }
+      
+      .title-text {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        fill: #8b949e;
+        letter-spacing: 1.5px;
+      }
+
+      .value-text {
+        font-size: 13px;
+        fill: #e6edf3;
+      }
+
+      .label-text {
+        font-size: 13px;
+        fill: #58a6ff;
+        font-weight: 500;
+      }
+
+      .accent-blue { fill: #58a6ff; }
+      .accent-green { fill: #3fecff; }
+      .accent-purple { fill: #bc8cff; }
+      .accent-pink { fill: #ff7b72; }
+
+      /* Animations */
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      
+      .cursor {
+        animation: blink 1s infinite;
+        fill: #00f2fe;
+      }
+
+      @keyframes pulse {
+        0% { r: 4px; opacity: 0.6; }
+        50% { r: 6px; opacity: 1; filter: drop-shadow(0 0 4px #4af626); }
+        100% { r: 4px; opacity: 0.6; }
+      }
+
+      .status-pulse {
+        animation: pulse 2s infinite;
+        fill: #4af626;
+      }
+
+      @keyframes scanline {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(380px); }
+      }
+
+      .scan-line {
+        animation: scanline 8s linear infinite;
+        stroke: rgba(0, 242, 254, 0.05);
+        stroke-width: 1px;
+      }
+
+      @keyframes progress-backend {
+        0% { width: 0; }
+        100% { width: 332px; } /* 350 * 0.95 = 332.5 */
+      }
+      @keyframes progress-frontend {
+        0% { width: 0; }
+        100% { width: 322px; } /* 350 * 0.92 = 322 */
+      }
+      @keyframes progress-mobile {
+        0% { width: 0; }
+        100% { width: 308px; } /* 350 * 0.88 = 308 */
+      }
+      @keyframes progress-robotics {
+        0% { width: 0; }
+        100% { width: 297px; } /* 350 * 0.85 = 297.5 */
+      }
+
+      .bar-backend { animation: progress-backend 1.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+      .bar-frontend { animation: progress-frontend 1.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+      .bar-mobile { animation: progress-mobile 1.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+      .bar-robotics { animation: progress-robotics 1.5s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+
+      /* Grid pattern background */
+      .grid-bg {
+        fill: url(#grid);
+        opacity: 0.15;
+      }
+
+      /* Glow filters */
+      .glow-green {
+        filter: drop-shadow(0 0 3px #4af626);
+      }
+      .glow-cyan {
+        filter: drop-shadow(0 0 3px #00f2fe);
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#070a13" />
+      <stop offset="100%" stop-color="#020306" />
+    </linearGradient>
+
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <linearGradient id="purple-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b967ff" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+
+    <linearGradient id="orange-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9f1c" />
+      <stop offset="100%" stop-color="#ff6b6b" />
+    </linearGradient>
+
+    <linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4af626" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1f2937" stroke-width="0.5" />
+    </pattern>
+  </defs>
+
+  <!-- Background Rect -->
+  <rect width="850" height="380" rx="12" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="850" height="380" rx="12" class="grid-bg" />
+
+  <!-- Scanning Line -->
+  <line x1="0" y1="0" x2="850" y2="0" class="scan-line" />
+
+  <!-- Terminal Header -->
+  <g transform="translate(0, 0)">
+    <!-- Top Bar Background -->
+    <path d="M 12 0 L 838 0 A 12 12 0 0 1 850 12 L 850 40 L 0 40 L 0 12 A 12 12 0 0 1 12 0 Z" fill="#0d1117" />
+    
+    <!-- Colored Window Dots -->
+    <circle cx="25" cy="20" r="6" fill="#ff5f56" />
+    <circle cx="45" cy="20" r="6" fill="#ffbd2e" />
+    <circle cx="65" cy="20" r="6" fill="#27c93f" />
+
+    <!-- Title Bar Text -->
+    <text x="425" y="25" text-anchor="middle" font-family="'Fira Code', monospace" font-size="12" fill="#8b949e" font-weight="500">
+      SYSTEM STATUS: ACTIVE // marwane@faridi
+    </text>
+    
+    <!-- Header Line divider -->
+    <line x1="0" y1="40" x2="850" y2="40" stroke="#1e293b" stroke-width="1.5" />
+  </g>
+
+  <!-- Main Body Content -->
+  <g class="main-container" transform="translate(25, 65)">
+    
+    <!-- LEFT PANEL: IDENTITY & ENVIRONMENT -->
+    <g transform="translate(0, 0)">
+      <!-- Panel Header -->
+      <text x="0" y="15" class="title-text">&gt;_ IDENTITY_BIO</text>
+      
+      <!-- Panel Outline or Left Accent Border -->
+      <line x1="-10" y1="30" x2="-10" y2="210" stroke="#00f2fe" stroke-width="2.5" class="glow-cyan" />
+      
+      <!-- Diagnostic Rows -->
+      <!-- Name -->
+      <text x="10" y="45" class="label-text">NAME:</text>
+      <text x="130" y="45" class="value-text">Marwane Faridi</text>
+
+      <!-- Role -->
+      <text x="10" y="75" class="label-text">CLASS:</text>
+      <text x="130" y="75" class="value-text">Software Engineer</text>
+      
+      <!-- Focus -->
+      <text x="10" y="105" class="label-text">ECOSYSTEMS:</text>
+      <text x="130" y="105" class="value-text">Full-Stack &amp; Mobile</text>
+
+      <!-- Achievement -->
+      <text x="10" y="135" class="label-text">AWARD:</text>
+      <text x="130" y="135" class="value-text" fill="#ffbd2e" font-weight="600">🏆 Swaply (1st Place)</text>
+      
+      <!-- Hardware -->
+      <text x="10" y="165" class="label-text">HARDWARE/AI:</text>
+      <text x="130" y="165" class="value-text">DromAI Robotic Camel</text>
+
+      <!-- PFA Status -->
+      <text x="10" y="195" class="label-text">INTERNSHIP:</text>
+      <text x="130" y="195" class="value-text" fill="#4af626" font-weight="700">Seeking Summer 2026</text>
+      <circle cx="315" cy="190" r="5" class="status-pulse glow-green" />
+    </g>
+
+    <!-- RIGHT PANEL: CAPABILITIES & TELEMETRY -->
+    <g transform="translate(420, 0)">
+      <!-- Panel Header -->
+      <text x="0" y="15" class="title-text">&gt;_ CORE_CAPABILITIES</text>
+      
+      <!-- Progress Bar 1: Backend -->
+      <g transform="translate(0, 30)">
+        <text x="0" y="12" class="label-text" fill="#bc8cff">BACKEND (Spring Boot / Laravel)</text>
+        <text x="350" y="12" class="value-text" font-size="11" text-anchor="end">95%</text>
+        <!-- Background track -->
+        <rect x="0" y="20" width="350" height="8" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5" />
+        <!-- Glowing fill -->
+        <rect x="0" y="20" height="8" rx="4" fill="url(#cyan-grad)" class="bar-backend" />
+      </g>
+
+      <!-- Progress Bar 2: Frontend -->
+      <g transform="translate(0, 75)">
+        <text x="0" y="12" class="label-text" fill="#bc8cff">FRONTEND (Next.js / React / CSS)</text>
+        <text x="350" y="12" class="value-text" font-size="11" text-anchor="end">92%</text>
+        <!-- Background track -->
+        <rect x="0" y="20" width="350" height="8" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5" />
+        <!-- Glowing fill -->
+        <rect x="0" y="20" height="8" rx="4" fill="url(#purple-grad)" class="bar-frontend" />
+      </g>
+
+      <!-- Progress Bar 3: Mobile -->
+      <g transform="translate(0, 120)">
+        <text x="0" y="12" class="label-text" fill="#bc8cff">MOBILE (React Native / Expo)</text>
+        <text x="350" y="12" class="value-text" font-size="11" text-anchor="end">88%</text>
+        <!-- Background track -->
+        <rect x="0" y="20" width="350" height="8" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5" />
+        <!-- Glowing fill -->
+        <rect x="0" y="20" height="8" rx="4" fill="url(#orange-grad)" class="bar-mobile" />
+      </g>
+
+      <!-- Progress Bar 4: Automation & AI -->
+      <g transform="translate(0, 165)">
+        <text x="0" y="12" class="label-text" fill="#bc8cff">AUTOMATION &amp; AI (Python / Robotics)</text>
+        <text x="350" y="12" class="value-text" font-size="11" text-anchor="end">85%</text>
+        <!-- Background track -->
+        <rect x="0" y="20" width="350" height="8" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5" />
+        <!-- Glowing fill -->
+        <rect x="0" y="20" height="8" rx="4" fill="url(#green-grad)" class="bar-robotics" />
+      </g>
+    </g>
+
+    <!-- BOTTOM SECTION: SYSTEM LOG / CONSOLE -->
+    <g transform="translate(0, 240)">
+      <!-- Console Border -->
+      <rect x="-10" y="0" width="820" height="50" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+      
+      <!-- Glowing dot -->
+      <circle cx="10" cy="25" r="3.5" fill="#00f2fe" class="glow-cyan" />
+      
+      <!-- Console Output Line 1 -->
+      <text x="25" y="29" font-family="'Fira Code', monospace" font-size="11" fill="#7ad9ff">
+        marwane@faridi:~$ ./run_diagnostics.sh --mode=live
+      </text>
+      
+      <!-- Console Output Line 2 -->
+      <text x="450" y="29" font-family="'Fira Code', monospace" font-size="11" fill="#38B2AC">
+        [SYSTEM: OK] [ROBOTICS_CORE: ONLINE]
+      </text>
+      
+      <!-- Cursor -->
+      <rect x="735" y="19" width="8" height="13" class="cursor" />
+    </g>
+  </g>
+</svg>
