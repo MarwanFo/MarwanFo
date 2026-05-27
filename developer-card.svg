@@ -186,9 +186,9 @@
       <text x="10" y="105" class="label-text">ECOSYSTEMS:</text>
       <text x="130" y="105" class="value-text">Full-Stack &amp; Mobile</text>
 
-      <!-- Achievement -->
-      <text x="10" y="135" class="label-text">AWARD:</text>
-      <text x="130" y="135" class="value-text" fill="#ffbd2e" font-weight="600">🏆 Swaply (1st Place)</text>
+      <!-- Focus Project -->
+      <text x="10" y="135" class="label-text">FOCUS_PROJECT:</text>
+      <text x="130" y="135" class="value-text" fill="#3fecff" font-weight="600">SmartUpf Portal</text>
       
       <!-- Hardware -->
       <text x="10" y="165" class="label-text">HARDWARE/AI:</text>

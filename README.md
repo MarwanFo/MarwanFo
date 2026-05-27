@@ -34,7 +34,7 @@ and mobile ecosystems. I specialize in bridging powerful backends with highly
 responsive, animated user interfaces.
 
 • 🛠️ <b>Current Focus:</b> Designing robust APIs &amp; state-driven mobile apps.
-• 🏆 <b>Track Record:</b> 1st Place winner for "Swaply" (Engineering Week).
+• ⚡ <b>Key Architecture:</b> Developed high-performance APIs and role-based student portals.
 • 🤖 <b>Hardware/Software:</b> Developed "DromAI" autonomous robot control scripts.
 • 💼 <b>Status:</b> Actively seeking a Summer 2026 PFA Internship.
 
@@ -64,9 +64,9 @@ responsive, animated user interfaces.
 <table border="0">
   <tr>
     <td width="50%" valign="top">
-      <h3>🏆 Swaply</h3>
-      <p>Awarded <b>1st Place</b> at Engineering Week. A modern platform built to optimize resource exchange mechanisms seamlessly.</p>
-      <code>Next.js</code> <code>Node.js</code> <code>Tailwind</code>
+      <h3>🎓 SmartUpf V2</h3>
+      <p>A comprehensive academic administration portal featuring role-based access control, custom security Voters, and high-performance API structures.</p>
+      <code>Symfony</code> <code>React</code> <code>PostgreSQL</code>
     </td>
     <td width="50%" valign="top">
       <h3>🤖 DromAI (NURC 2026)</h3>
