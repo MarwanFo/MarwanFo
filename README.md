@@ -1,134 +1,101 @@
-# 👋 Hi, I'm Marwane Faridi
-
-### 🎓 Software Engineering Student | 💻 Full-Stack Developer  
+<!-- HEADER SECTION -->
+<div align="center">
+  <h1><code>┌── [marwane-faridi] ~/profile/root</code></h1>
+  <p><strong>⚡ Software Engineer | Full-Stack & Mobile Developer</strong></p>
+</div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=38B2AC&center=true&vCenter=true&width=600&lines=Full-Stack+Web+Developer;Software+Engineering+Student;Building+real-world+projects;Learning+and+sharing+open-source" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=800&color=38B2AC&center=true&vCenter=true&width=550&lines=%E2%9E%A4+Initializing+developer+environment...;%E2%9E%A4+Specialized+in+React%2C+Next.js+%26+Node.js;%E2%9E%A4+Building+with+Spring+Boot+%26+Laravel;%E2%9E%A4+Crafting+native+mobile+experiences" />
+</p>
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/marwane-faridi-bb6076360"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:itsmemarwanefo@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</div>
+
+<br />
+
+<!-- ABOUT ME (TERMINAL BOX) -->
+<table>
+  <tr>
+    <td>
+      <pre>
+<span><b>marwane@faridi:~$</b> cat about_me.md</span>
+<br />
+👋 Hi, I'm Marwane! I am a Software Engineer focused on building scalable web 
+and mobile ecosystems. I specialize in bridging powerful backends with highly 
+responsive, animated user interfaces.
+
+• 🛠️ <b>Current Focus:</b> Designing robust APIs & state-driven mobile apps.
+• 🏆 <b>Track Record:</b> 1st Place winner for "Swaply" (Engineering Week).
+• 🤖 <b>Hardware/Software:</b> Developed "DromAI" autonomous robot control scripts.
+• 💼 <b>Status:</b> Actively seeking a Summer 2026 PFA Internship.
+
+</pre>
+</td>
+
+  </tr>
+</table>
+
+---
+
+## 🛠️ Ecosystem & Tech Stack
+
+| Category           | Technologies                                        |
+| :----------------- | :-------------------------------------------------- |
+| **Languages**      | `JavaScript` `TypeScript` `Java` `PHP` `Python` `C` |
+| **Frontend**       | `React` `Next.js` `TailwindCSS` `HTML5/CSS3`        |
+| **Mobile**         | `React Native` `Expo Framework`                     |
+| **Backend**        | `Node.js` `Express` `Spring Boot` `Laravel`         |
+| **Databases**      | `MySQL` `MS SQL Server` `MongoDB` `PostgreSQL`      |
+| **DevOps & Tools** | `Docker` `GitHub Actions` `Git` `Linux` `Postman`   |
+
+---
+
+## 🚀 Key Highlights & Projects
+
+<!-- Grid layout for projects -->
+<table border="0">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏆 Swaply</h3>
+      <p>Awarded <b>1st Place</b> at Engineering Week. A modern platform built to optimize resource exchange mechanisms seamlessly.</p>
+      <code>Next.js</code> <code>Node.js</code> <code>Tailwind</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 DromAI (NURC 2026)</h3>
+      <p>Co-developed an autonomous robotic camel, implementing custom control algorithms, sensor logic, and competition routing.</p>
+      <code>Python</code> <code>Robotics Automation</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Enterprise Architectures</h3>
+      <p>Building high-performance APIs and specialized backends with rigorous database indexing and query optimization.</p>
+      <code>Spring Boot</code> <code>Laravel</code> <code>SQL Server</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📱 Mobile Applications</h3>
+      <p>Developing native multi-platform experiences focusing on deep-linking, fluid navigations, and offline synchronization.</p>
+      <code>React Native</code> <code>Expo</code>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📈 System Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MarwanFo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MarwanFo&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
 ---
 
-## 🚀 About Me  
+## 📨 `stdout` / Let's Connect
 
-I'm a **Software Engineering student** and **Full-Stack developer** passionate about building modern, scalable web applications.  
-I enjoy learning new technologies, creating real-world projects, and sharing my knowledge through open-source.
-
-- 🎓 Software Engineering Student  
-- 💻 Full-Stack Web Development  
-- 🧠 Always learning & improving  
-- 🌍 Open to internships & junior roles  
-
----
-
-## 🛠 Tech Stack  
-
-
-### 👨‍💻 Programming Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
-![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)
-![C](https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c)
-
----
-
-### 🎨 Frontend Development
-![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-purple?style=for-the-badge&logo=bootstrap)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
-
----
-
-### ⚙ Backend Development
-![Laravel](https://img.shields.io/badge/laravel-red?style=for-the-badge&logo=laravel)
-![Node.js](https://img.shields.io/badge/Node.js-green?style=for-the-badge&logo=node.js)
-![Express.js](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
-![Django](https://img.shields.io/badge/Django-darkgreen?style=for-the-badge&logo=django)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-green?style=for-the-badge&logo=springboot)
-
----
-
-### 🗄 Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-green?style=for-the-badge&logo=mongodb)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?style=for-the-badge&logo=postgresql)
-![MySQL](https://img.shields.io/badge/MySQL-lightblue?style=for-the-badge&logo=mysql)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite)
-
----
-
-### 🔐 Authentication & APIs
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens)
-![REST API](https://img.shields.io/badge/REST-API-blue?style=for-the-badge)
-
----
-
-### ☁ DevOps & Cloud (Basic)
-![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-black?style=for-the-badge&logo=github-actions)
-![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazon-aws)
-
----
-
-### 🧰 Tools & Platforms
-![Git](https://img.shields.io/badge/Git-orange?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux)
-![VS Code](https://img.shields.io/badge/VSCode-blue?style=for-the-badge&logo=visual-studio-code)
-![Postman](https://img.shields.io/badge/Postman-orange?style=for-the-badge&logo=postman)
-
-
----
-
-## 📌 Featured Projects  
-
-
-- 🔹 **QR Code Generator** – Generate QR codes using JavaScript  
-- 🔹 **Automation Mail** – Email automation with Python  
-- 🔹 **Web Projects** – HTML, CSS & JavaScript practice projects  
-
----
-
-## 🌱 Currently Learning  
-
-- ⚛ Advanced React & Frontend patterns  
-- 🧩 Backend APIs & authentication  
-- ☁ Basics of Cloud & Deployment  
-- 🧠 Clean code & best practices  
-
----
-
-## 🎯 Goals  
-
-### Short Term
-- ✔ Get a **junior / internship** role  
-- ✔ Build strong full-stack projects  
-- ✔ Contribute to open-source  
-
-### Long Term
-- 🚀 Become a professional **Full-Stack Engineer**  
-- 🚀 Build impactful software products  
-
----
-
-## 📊 GitHub Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MarwanFo&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MarwanFo&theme=tokyonight" />
-</p>
-
----
-
-## 🤝 Let's Connect  
-
-- 📧 Email:itsmemarwanefo@gmail.com
-- 💼 LinkedIn:https://www.linkedin.com/in/marwane-faridi-bb6076360  
-
-⭐ *Thanks for visiting my profile!*
+```bash
+marwane@faridi:~$ curl -X POST [https://api.marwane.dev/connect](https://api.marwane.dev/connect) \
+  -d "message=Let's collaborate on something great!"
+```
